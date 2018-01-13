@@ -1,0 +1,89 @@
+.logo {
+	display: table;
+	width:  100%;
+}
+
+.text-logo {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.formulario {
+	display: table;
+	width: 100%;
+}
+
+.contato {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
+
+.imagens {
+	max-height: 150px;
+	max-width: 150px;
+	padding: 25px;
+	position: relative;
+	float: left;
+	transition: all .2s ease-in-out;
+}
+
+.imagens:hover{
+	transform: scale(1.1);
+}
+
+#cont1, #cont2, #cont3 {
+	padding: 40px 0px;
+	width: 100%;
+}
+
+#cont1 {
+	background: #F5F5F5;
+	border: solid 1px #E6E6E6;
+}
+
+#cont2 {
+	background: white;
+}
+
+#cont3 {
+	background: #F5F5F5;
+	border: solid 1px #E6E6E6;
+}
+
+#rodape {
+	padding: 20px 0px;
+	background: white;
+	border: solid 1px #E6E6E6;
+	text-align: center;
+}
+
+html,body, .logo { 
+	height: 100%;
+	overflow: auto;
+	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-size: 100px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: -5px;
+	margin-bottom: 20px;
+
+}
+
+.text-descri {
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	text-align: justify;
+}

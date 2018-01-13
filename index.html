@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Site de Henrique</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="inicio">
+
+    <nav class="navbar navbar-fixed-top navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-barra">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#inicio" class="navbar-brand">HnrqPacheco</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="menu-barra">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#cont1"><span class="glyphicon glyphicon-education"></span> Quem sou eu</a></li>
+            <li><a href="#cont2"><span class="glyphicon glyphicon-book"></span> Meus conhecimentos</a></li>
+            <li><a href="#cont3"><span class="glyphicon glyphicon-envelope"></span> Contato</a></li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Olá, Visitante <span class="caret"></span>
+              </a>
+              
+              <ul class="dropdown-menu">
+                <li><a href="#" data-toggle="modal" data-target="#jan_modal"><span class="glyphicon glyphicon-user"></span> Entrar</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-comment"></span> Mensagens</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-cog"></span> Configurações</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <div class="logo">
+      <div class="text-logo">
+        <h1>Seja Bem Vindo</h1>    
+        <p>Site de apresentação básico criado por Henrique Pacheco</p>
+      </div>
+    </div>
+
+    <section id="cont1">
+      <div class="container">
+        <div class="row">        
+          <div class="logo">
+            <div class="text-logo">
+              <h2> <!--Poderia colocar na própria tag h3, mas ficaria um espaçamento entre a imagem e o nome-->
+                 Quem sou eu ?
+              </h2>
+
+            </div>
+          </div>  
+        </div>
+
+        <div class="row">
+          <div class="text-descri">
+            <div class="col-md-6">
+                <p>
+                Olá, seja bem vindo ao meu site de apresentação. Meu nome é Henrique, tenho 19 anos e sou estudante de Sistemas de Informação na UNEB (Universidade do Estado da Bahia). Tive meu primeiro contato com programação aos 11 anos, onde utilizei Delphi para desenvolver utilitários para alguns jogos da época. A ideia de apresentar uma solução prática aos problemas sofridos pelos usuários tornou-se meu <i>hobbie</i> durante um bom tempo.
+                </p>
+                <p>
+                Meus estudos na área começaram ainda durante o Ensino Médio, onde fiz um curso de aprendizagem básica sobre redes e hardware, o que me proporcionou uma nova forma de entendimento da área em que eu estava envolvido e me direcionou para a parte acadêmica de computação.
+                </p>
+            </div>
+
+            <div class="col-md-6">
+              <p>
+                Sempre tive foco e determinação naquilo que me proponho a fazer e tenho uma ótima dinâmica em grupo, sempre trabalhando para proporcionar um ambiente harmonioso, para que o resultado seja alcançado com qualidade.
+              </p>
+              <p>
+                Sou bem humorado, mas sério quando necessário. Sei dar a devida importância as relações interpessoais, sempre sabendo dividir formal e o informal nas horas adequadas. Gosto de organização e considero um dos pilares para um bom desempenho em qualquer atividade.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cont2">
+      <div class="container">
+        <div class="row">        
+          <div class="logo">
+            <div class="text-logo">
+              <h2> <!--Poderia colocar na própria tag h3, mas ficaria um espaçamento entre a imagem e o nome-->
+                 Meus conhecimentos
+              </h2>
+
+            </div>
+          </div>  
+        </div>
+
+        <div class="row">
+    
+          <div style="margin-left: 50px;">
+            <img id="btn-c" src="c_icon.png" class="img-responsive imagens" data-toggle="tooltip" data-placement="bottom" title="Clique para mais detalhes">
+            <img id="btn-java" src="java_icon.png" class="img-responsive imagens" data-toggle="tooltip" data-placement="bottom" title="Clique para mais detalhes">
+            <img id="btn-html" src="html_icon.png" class="img-responsive imagens" data-toggle="tooltip" data-placement="bottom" title="Clique para mais detalhes">
+            <img id="btn-css" src="css3_icon.png" class="img-responsive imagens" data-toggle="tooltip" data-placement="bottom" title="Clique para mais detalhes">
+            <img id="btn-js" src="js_icon.png" class="img-responsive imagens" data-toggle="tooltip" data-placement="bottom" title="Clique para mais detalhes">
+            <img id="btn-php" src="php_icon.png" class="img-responsive imagens" data-toggle="tooltip" data-placement="bottom" title="Clique para mais detalhes">
+            <img id="btn-sql" src="sql_icon.png" class="img-responsive imagens" data-toggle="tooltip" data-placement="bottom" title="Clique para mais detalhes">
+          </div>
+        
+        </div>
+
+        <div class="container">
+          <div class="row">
+
+            <div class="text-descri" id="conteudo">
+              
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="cont3">
+      <div class="container">
+        <div class="formulario">
+          <div class="contato">
+            <h2>Entre em contato</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+            
+          </div>
+          
+          <div class="col-md-8">
+            <form>
+              <div class="form-group">
+                <label for="nome_usr">Nome:</label>
+                 <input type="text" class="form-control" id="nome_usr" placeholder="Digite seu nome">
+              </div>
+
+              <div class="form-group">
+                <label for="cad_email_usr">E-mail:</label>
+                <input type="email" class="form-control" id="cad_email_usr" placeholder="Digite seu e-mail">
+              </div>
+              
+              <div class="form-group">
+                <label for="mensagem_email">Mensagem:</label>
+                <textarea class="form-control" rows="5" id="mensagem_email" placeholder="Sua mensagem ..."></textarea>
+              </div>
+              <button type="button" class="btn btn-primary" id="enviar" data-toggle="modal" data-target="#aviso">Enviar</button>
+            </form>
+          </div>  
+        </div>
+
+      </div>
+    </section>
+
+    <footer id="rodape">
+      <div class="container">
+        <div class="row">
+         Criado por Henrique Pacheco™ - <a href="https://github.com/hspacheco">GitHub</a> e <a href="https://www.linkedin.com/in/henrique-pacheco-566b9913b/">LinkedIn</a>.
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Inicio Janela Modal-->
+    <form class="modal fade" id="jan_modal">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+              <h4 class="modal-title">Entrar no sistema:</h4>
+          </div>
+
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="usr">Usuário:</label>
+              <input type="text" id="usr" class="form-control" placeholder="Digite o nome de usuário">
+           </div>
+
+            <div class="form-group">
+              <label for="pass">Senha:</label>
+              <input type="password" id="pass" class="form-control" placeholder="Digite a sua senha">
+            </div>
+
+          </div>
+              
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+          </div>
+
+        </div>
+      </div>
+    </form>
+    <!-- FIM Janela Modal-->
+
+    <!-- Inicio Janela de Aviso-->
+    <form class="modal fade" id="aviso">
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+              <h4 class="modal-title">Ocorreu um problema !</h4>
+          </div>
+
+          <div class="modal-body">
+
+            <div class="alert alert-warning" role="alert">     
+              Infelizmente o GitHub Pages não suporta executa o PHPMailer !
+            </div>
+
+            <div style="text-align: center;">
+              Utilizar hnrq.spacheco@gmail.com || hikpacheco@gmail.com.
+            </div>
+            
+          </div>
+          
+        </div>
+      </div>
+    </form>
+    <!-- FIM Janela de Aviso-->
+
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <!-- Funções JavaScript-->
+    <script src="funcoes.js"></script>
+
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="script.php"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
